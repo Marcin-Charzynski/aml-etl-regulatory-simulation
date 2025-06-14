@@ -1,9 +1,8 @@
 ---
-
 layout: page
 title: Overview
 permalink: /
-------------
+---
 
 ## 🧩 AML ETL & Regulatory Simulation
 
@@ -21,12 +20,12 @@ The goal is to demonstrate:
 
 ### 🔍 Explore the Simulation
 
-* 🔄 \[ETL Pipeline]\({{ site.baseurl }}/etl-process/): How raw transactional data is extracted, cleaned, and transformed into a reporting-ready format.
+- 🔄 [ETL Pipeline]({{ site.baseurl }}/etl-process/): How raw transactional data is extracted, cleaned, and transformed into a reporting-ready format.
 
-* 🚨 \[AML Rules & Risk Scoring]\({{ site.baseurl }}/risk-detection/): A rule-based engine to flag suspicious transactions using SQL logic and weighted risk scoring.
+- 🚨 [AML Rules & Risk Scoring]({{ site.baseurl }}/risk-detection/): A rule-based engine to flag suspicious transactions using SQL logic and weighted risk scoring.
 
-* 📄 \[Regulatory Reporting]\({{ site.baseurl }}/regulatory-reporting/): How Suspicious Activity Reports (SARs), Currency Transaction Reports (CTRs), and audit files are simulated.
+- 📄 [Regulatory Reporting]({{ site.baseurl }}/regulatory-reporting/): How Suspicious Activity Reports (SARs), Currency Transaction Reports (CTRs), and audit files are simulated.
 
-* 🗃 \[Data Model & SQLite Setup]\({{ site.baseurl }}/data-model/): Entity-relationship diagram (ERD) and database schema used for the project.
+- 🗃 [Data Model & SQLite Setup]({{ site.baseurl }}/data-model/): Entity-relationship diagram (ERD) and database schema used for the project.
 
-* 📊 \[Interactive Dashboard]\({{ site.baseurl }}/interactive-dashboard/): Optional Power BI dashboard showcasing flagged accounts, high-risk clients, and historical case summaries.
+- 📊 [Interactive Dashboard]({{ site.baseurl }}/interactive-dashboard/): Optional Power BI dashboard showcasing flagged accounts, high-risk clients, and historical case summaries.

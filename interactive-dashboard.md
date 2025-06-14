@@ -1,9 +1,8 @@
 ---
-
 layout: page
 title: Interactive Dashboard
 permalink: /interactive-dashboard/
-----------------------------------
+---
 
 ## 📊 Interactive Dashboard (Power BI)
 

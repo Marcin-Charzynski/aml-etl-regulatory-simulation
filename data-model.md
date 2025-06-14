@@ -2,7 +2,7 @@
 layout: page
 title: Data Model & SQLite Setup
 permalink: /data-model/
------------------------
+---
 
 ## 🗃 Data Model & SQLite Setup
 

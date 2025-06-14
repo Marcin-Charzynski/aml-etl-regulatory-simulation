@@ -1,9 +1,8 @@
 ---
-
 layout: page
 title: Regulatory Reporting
 permalink: /regulatory-reporting/
----------------------------------
+---
 
 ## 📄 Regulatory Reporting
 

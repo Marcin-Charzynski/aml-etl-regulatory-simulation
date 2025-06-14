@@ -1,9 +1,8 @@
 ---
-
 layout: page
 title: AML Rules & Risk Scoring
 permalink: /risk-detection/
----------------------------
+---
 
 ## 🚨 AML Rules & Risk Scoring
 

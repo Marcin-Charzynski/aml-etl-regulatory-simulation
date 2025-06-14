@@ -1,9 +1,8 @@
 ---
-
 layout: page
 title: ETL Pipeline
 permalink: /etl-process/
-------------------------
+---
 
 ## 🔄 ETL Process
 
