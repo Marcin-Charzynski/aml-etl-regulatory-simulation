@@ -1,0 +1,6 @@
+account_id,customer_id,account_type,open_date,status
+2001,1001,personal,2020-05-01,active
+2002,1002,corporate,2018-07-15,active
+2003,1003,personal,2019-03-18,inactive
+2004,1004,personal,2022-01-05,active
+2005,1005,corporate,2020-12-01,active
