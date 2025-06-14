@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} - AML ETL & Regulatory Simulation</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- PrismJS for syntax highlighting -->
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-vba.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-sql.min.js"></script>
+</head>
+<body class="min-h-screen bg-gray-50 text-gray-800 font-sans leading-relaxed antialiased">
+
+<!-- Navigation -->
+<nav class="bg-white shadow-md">
+  <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <!-- Site Title -->
+    <a href="{{ site.baseurl }}/" class="text-xl font-semibold text-indigo-600 hover:text-indigo-800">
+      AML ETL & Regulatory Simulation
+    </a>
+
+    <!-- Back to Portfolio (desktop only) -->
+    <a href="{{ site.url }}/" class="text-sm text-indigo-500 hover:text-indigo-700 hidden md:inline-flex items-center space-x-1">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 18l-6-6 6-6" />
+      </svg>
+      <span>Back to Portfolio</span>
+    </a>
+
+    <!-- Burger Icon -->
+    <button class="md:hidden block text-gray-600 focus:outline-none" id="menu-btn">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Menu -->
+  <div class="container mx-auto px-4">
+    <ul id="menu" class="hidden md:flex flex-col md:flex-row text-gray-600 absolute md:static bg-white md:bg-transparent left-0 top-16 md:top-auto w-full md:w-auto px-4 md:px-0 py-4 md:py-0 shadow-md md:shadow-none z-50
+                        space-y-2 md:space-y-0 md:space-x-6">
+
+      <!-- Back to Portfolio (mobile only) -->
+      <li class="md:hidden">
+        <a href="{{ site.url }}/" class="block py-2 text-sm text-indigo-500 hover:text-indigo-700 flex items-center space-x-1">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 18l-6-6 6-6" />
+          </svg>
+          <span>Back to Portfolio</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ site.baseurl }}/"
+           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl or page.url == site.baseurl | append: '/' %}font-bold text-indigo-700{% endif %}">
+          Overview
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/etl-process/"
+           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/etl-process/' %}font-bold text-indigo-700{% endif %}">
+          ETL Pipeline
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/risk-detection/"
+           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/risk-detection/' %}font-bold text-indigo-700{% endif %}">
+          AML Rules & Risk Scoring 
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/regulatory-reporting/"
+           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/regulatory-reporting/' %}font-bold text-indigo-700{% endif %}">
+          Regulatory Outputs
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/data-model/"
+           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/data-model/' %}font-bold text-indigo-700{% endif %}">
+          Data Model & SQLite Setup
+        </a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/interactive-dashboard/"
+           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/interactive-dashboard/' %}font-bold text-indigo-700{% endif %}">
+          Dashboard Demo (Power BI)
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Main content -->
+<main class="flex-grow container mx-auto px-6 py-8 max-w-4xl">
+  {{ content }}
+</main>
+
+<!-- Footer -->
+<footer class="bg-white border-t mt-12">
+  <div class="container mx-auto px-4 py-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center gap-2">
+    <span>&copy; {{ site.time | date: "%Y" }} Marcin – AML ETL & Regulatory Simulation</span>
+    <span>
+      <a href="https://www.linkedin.com/in/marcin-charzy%C5%84ski/" class="hover:text-indigo-600">LinkedIn</a> · 
+      <a href="https://github.com/Marcin-Charzynski" class="hover:text-indigo-600">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  // Toggle mobile menu
+  document.getElementById('menu-btn').addEventListener('click', () => {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('hidden');
+  });
+
+    // Optional: Toggle code blocks
+    function toggleCode(id) {
+      const el = document.getElementById(id);
+      el.style.display = (el.style.display === "none" || !el.style.display) ? "block" : "none";
+    }
+</script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const source = params.get("src") || "direct";
+  fetch("https://script.google.com/macros/s/AKfycbxQnisU7CNye7XVl2eKrYQxTciNPCj2LmG8W4PhMrO-X-ynzgmudBTyrjs1ILXwnLpS/exec", {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      userAgent: navigator.userAgent,
+      page: location.href,
+      referrer: source,
+      screen: `${screen.width}x${screen.height}`,
+      language: navigator.language,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      time: new Date().toISOString()
+    })
+  }).catch(console.error);
+</script>
+
+</body>
+</html>
