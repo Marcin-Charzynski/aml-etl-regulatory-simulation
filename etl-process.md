@@ -50,10 +50,10 @@ transactions["clean_description"] = (
 
 | Layer         | Tables                             | Purpose                                |
 |---------------|-------------------------------------|----------------------------------------|
-| **Staging**     | `stg_customers`, `stg_accounts`, `stg_transactions` | Raw or intermediate tables              |
-| **Core**        | `customers`, `accounts`, `transactions`              | Final normalized tables used in analysis |
-| **Audit**       | `audit_etl_runs`                                    | Metadata logs for ETL diagnostics        |
-| **Output**      | `flagged_txns`, `risk_alerts`                        | Result of rule-based detection           |
+| **Staging**     | **stg_customers**, **stg_accounts**, **stg_transactions** | Raw or intermediate tables              |
+| **Core**        | **customers**, **accounts**, **transactions**              | Final normalized tables used in analysis |
+| **Audit**       | **audit_etl_runs**                                    | Metadata logs for ETL diagnostics        |
+| **Output**      | **flagged_txns**, **risk_alerts**                        | Result of rule-based detection           |
 
 The staging layer allows for validation and rollback before final insertion. Only after all checks pass are the records moved into the core schema.
 
@@ -73,6 +73,6 @@ This ensures that the pipeline is fully traceable and suitable for regulated env
 - Built entirely in Python using Pandas, Faker, and SQLite  
 - Stateless architecture allows reruns without data conflicts  
 - Supports expansion to cloud SQL or external APIs  
-- Connects seamlessly with AML rule engine defined in `/risk-detection/`
+- Connects seamlessly with AML rule engine defined in **/risk-detection/**
 
 ---
