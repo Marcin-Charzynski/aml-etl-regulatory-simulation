@@ -2,43 +2,56 @@
 layout: page
 title: Data Model & SQLite Setup
 permalink: /data-model/
----
+-----------------------
 
 ## 🗃 Data Model & SQLite Setup
 
-This section outlines the project’s database schema and entity-relationship diagram (ERD) used for analysis and reporting.
+This section outlines the database schema and architecture used in the AML ETL & Regulatory Simulation project.
 
-The project runs on a local SQLite database and includes staging, dimension, fact, and audit tables.
+The project simulates a real-world AML system, integrating client, account, transaction, and watchlist data. The database is generated locally using SQLite and fully populated via Python scripts that mimic realistic financial operations.
 
 ### 🔗 ERD Overview
 
-* **Clients** (`dim_clients`)
-* **Accounts** (`dim_accounts`)
-* **Transactions** (`fact_transactions`)
-* **ETL Audit** (`audit_etl_runs`)
-* **Alerts** (`risk_alerts`, `risk_rules_triggered`)
+* **Customers** (**customers**) — Identity and risk profile for each customer
+* **Accounts** (**accounts**) — Bank accounts linked to each customer
+* **Transactions** (**transactions**) — Financial movements across accounts
+* **Watchlist Entities** (**watchlist_entities**) — External parties flagged for AML monitoring
+* **Flagged Transactions** (**flagged_txns**) — Transactions identified by SQL-based AML detection rules
 
 ### 🛠 SQLite Setup
 
-```python
+The SQLite database is created using a Python script that:
+
+* Generates 10,000 customers (with realistic names, birthdates, and risk categories)
+* Links each customer to 1–3 accounts
+* Populates each account with 50–200 randomized transactions (simulating deposits, transfers, foreign exchanges, etc.)
+* Adds a watchlist of 20 suspicious entities
+* Prepares an empty **flagged_txns** table for rule-based AML detection
+
+Example connection setup:
+
+<details>
+<summary>Click to view code</summary>
+<pre class="overflow-x-auto bg-gray-800 text-green-400 p-4 rounded-md text-sm font-mono"><code class="language-python">
 import sqlite3
 conn = sqlite3.connect("aml_simulation.db")
 cursor = conn.cursor()
-```
+</code></pre>
+</details>
 
-### 📂 Folder Structure
+### 🧱 Table Summary
 
-```
-/data/
-  ├── raw/
-  ├── staging/
-  └── final/
-/output/
-  └── reports/
-```
+| Table                | Description                                       |
+| -------------------- | ------------------------------------------------- |
+| **customers**          | Customer ID, name, DOB, country, risk category    |
+| **accounts**           | Account ID, customer link, type, open date        |
+| **transactions**       | Timestamped financial movements between parties   |
+| **watchlist_entities** | List of suspicious companies or individuals       |
+| **flagged_txns**       | Output of rule triggers for further investigation |
 
-### 📌 Notes
+### ⚙️ Key Features
 
-* Indexes are created on `client_id`, `txn_date`, and `rule_id`
-* Views are used for downstream reporting (`sar_view`, `ctr_view`)
-* Test coverage built-in via `pytest-sqlite` for reproducibility
+* Designed for traceable, reproducible pipelines
+* Indexed fields: **customer_id**, **txn_id**, **timestamp**
+* Watchlist joins and velocity analysis powered by SQL window functions
+* Future-ready for integration with Power BI and rule-based scoring logic
