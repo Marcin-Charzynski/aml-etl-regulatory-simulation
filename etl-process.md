@@ -4,40 +4,75 @@ title: ETL Pipeline
 permalink: /etl-process/
 ---
 
-## 🔄 ETL Process
+## 🔄 ETL Pipeline
 
-This section outlines how transactional data is simulated and processed through a Python + SQLite-based ETL pipeline.
+This section outlines the end-to-end ETL pipeline that powers the AML ETL & Regulatory Simulation project.
 
-The ETL workflow supports compliance and reporting by ensuring consistent data formatting, deduplication, and audit-ready staging tables.
+The pipeline is implemented in Python using Pandas and SQLAlchemy to populate a local SQLite database. The goal is to simulate real-time ingestion, transformation, and loading of transactional data to support AML rule enforcement and compliance reporting.
 
-### ⚙️ Steps in the ETL Pipeline
+### 🧪 ETL Workflow Overview
 
-1. **Extract**
+The ETL flow mimics how financial data moves from operational systems into regulatory reporting environments. The pipeline includes the following stages:
 
-   * Raw data generated from simulated sources (e.g. banking transactions, account info, alerts)
-   * Loaded as CSVs or directly inserted into SQLite
+1. **Extract**  
+   - Generate synthetic customer, account, and transaction data using realistic patterns  
+   - Load directly into staging tables (no external files required)
 
-2. **Transform**
+2. **Transform**  
+   - Normalize field formats (e.g., timestamp, country codes)  
+   - Remove duplicates and apply sanity checks  
+   - Create derived fields like transaction velocity and account dormancy  
+   - Join accounts to customers for downstream linkage
 
-   * Normalization of transaction formats
-   * Removal of duplicates
-   * Flagging of edge cases (e.g. international wires, dormant accounts)
+3. **Load**  
+   - Insert curated data into final tables used for analysis and rule evaluation  
+   - Populate metadata in the **audit_etl_runs** table to log execution time, row counts, and pipeline status  
+   - Prepare empty containers for **flagged_txns** and **risk_alerts**
 
-3. **Load**
+### 🧰 Python Example Snippet
 
-   * Transformed data inserted into core reporting tables
-   * Audit tables updated to track ETL batch metadata
+<details>
+<summary>Click to view code</summary>
+<pre class="overflow-x-auto bg-gray-800 text-green-400 p-4 rounded-md text-sm font-mono"><code class="language-python">
+# Sample transformation: clean and normalize descriptions
+import pandas as pd
 
-### 🧪 Sample Python Snippet
+transactions["clean_description"] = (
+    transactions["description"]
+    .str.lower()
+    .str.replace(r"[^a-z0-9 ]", "", regex=True)
+    .str.strip()
+)
+</code></pre>
+</details>
 
-```python
-# Normalize transaction descriptions
-transactions["clean_description"] = transactions["description"].str.lower().str.replace(r"[^a-z0-9 ]", "")
-```
+### 🧱 Table Structure: Staging vs Final
 
-### 🧱 Staging vs Final Tables
+| Layer         | Tables                             | Purpose                                |
+|---------------|-------------------------------------|----------------------------------------|
+| **Staging**     | `stg_customers`, `stg_accounts`, `stg_transactions` | Raw or intermediate tables              |
+| **Core**        | `customers`, `accounts`, `transactions`              | Final normalized tables used in analysis |
+| **Audit**       | `audit_etl_runs`                                    | Metadata logs for ETL diagnostics        |
+| **Output**      | `flagged_txns`, `risk_alerts`                        | Result of rule-based detection           |
 
-* `stg_transactions`, `stg_accounts` → Temporary
-* `dim_accounts`, `fact_transactions`, `audit_etl_runs` → Final
+The staging layer allows for validation and rollback before final insertion. Only after all checks pass are the records moved into the core schema.
 
-ETL scripts include validation checkpoints to log mismatches and flag anomalies for review before loading completes.
+### 🧾 Audit Logging & Quality Control
+
+Each ETL run updates the **audit_etl_runs** table with:
+
+- Timestamp of the batch  
+- Number of records inserted per table  
+- Runtime duration  
+- Success/failure flag and exception handling
+
+This ensures that the pipeline is fully traceable and suitable for regulated environments.
+
+### ⚙️ Key Features
+
+- Built entirely in Python using Pandas, Faker, and SQLite  
+- Stateless architecture allows reruns without data conflicts  
+- Supports expansion to cloud SQL or external APIs  
+- Connects seamlessly with AML rule engine defined in `/risk-detection/`
+
+---
