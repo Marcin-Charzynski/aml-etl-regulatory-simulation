@@ -1,0 +1,321 @@
+customer_id,customer_name,dob,country,risk_category,account_id,txn_id,timestamp,amount,origin_country,dest_country,channel,rule_triggered,reason
+2444,Susan Jones,1967-12-19,CN,Low,4883,542798,2023-01-05T00:39:28,9762.18,BR,RU,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542798,2023-01-05T00:39:28,9762.18,BR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542807,2023-02-04T19:04:42,9593.29,GB,BR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542783,2023-02-11T03:42:28,8982.85,US,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542801,2023-02-12T11:57:36,9861.1,GB,FR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542538,2023-02-18T23:57:05,1532.01,RU,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542389,2023-03-04T11:25:02,9627.48,BR,DE,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542566,2023-03-10T03:16:23,7874.77,NG,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542564,2023-03-10T19:03:21,9618.75,FR,FR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542881,2023-03-25T02:35:23,2180.05,US,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542748,2023-04-03T00:32:08,9139.87,BR,GB,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542413,2023-04-05T19:15:56,9819.5,US,FR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542753,2023-05-08T09:14:28,9069.38,FR,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542864,2023-05-11T01:23:00,6492.94,PL,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542866,2023-05-17T07:34:24,7273.26,FR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542711,2023-05-20T05:01:42,9610.15,GB,US,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542674,2023-05-25T05:05:40,6979.76,DE,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542660,2023-07-28T07:31:59,6926.81,DE,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542815,2023-08-11T02:11:04,9346.86,PL,US,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542522,2023-09-05T08:02:11,4213.32,FR,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542889,2023-09-06T00:48:47,7678.98,BR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542840,2023-09-13T15:38:14,4898.18,IR,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542478,2023-09-15T09:27:14,9946.97,GB,RU,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542478,2023-09-15T09:27:14,9946.97,GB,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542751,2023-09-21T08:25:12,8175.31,NG,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542371,2023-10-01T18:21:16,1934.92,BR,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542718,2023-10-13T17:04:21,9330.23,DE,BR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542326,2023-10-27T19:36:42,9634.81,FR,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542702,2023-11-10T10:51:06,9601.02,NG,NG,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542329,2023-11-30T23:23:56,9473.89,US,GB,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542595,2023-12-05T01:58:24,9208.58,NG,DE,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542331,2023-12-13T13:46:55,9948.83,PL,PL,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542601,2023-12-15T16:32:01,9335.3,RU,FR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542570,2023-12-17T03:52:39,8883.48,US,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542886,2023-12-21T19:09:47,9286.22,FR,BR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542485,2023-12-30T00:35:01,1784.9,BR,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542760,2024-01-03T02:50:58,9013.36,FR,NG,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542529,2024-01-30T10:11:53,9802.82,FR,BR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542862,2024-02-11T07:37:11,6053.9,FR,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542650,2024-02-14T11:37:12,9100.84,FR,CN,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542561,2024-02-23T01:00:22,3209.61,DE,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542468,2024-02-24T10:40:48,9423.9,GB,FR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542607,2024-02-26T11:34:05,2954.28,US,IR,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542638,2024-02-28T00:22:49,6658.13,GB,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542827,2024-04-03T14:25:32,9178.82,BR,RU,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542827,2024-04-03T14:25:32,9178.82,BR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542580,2024-04-24T10:51:51,3732.88,GB,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542508,2024-05-02T20:02:44,4498.17,CN,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542784,2024-05-24T06:15:57,9085.5,GB,FR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542466,2024-05-25T22:21:57,9582.44,BR,US,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542536,2024-05-30T09:45:13,9926.92,RU,PL,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542573,2024-06-13T11:09:31,9521.36,FR,DE,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542340,2024-06-23T16:05:54,7240.18,IR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542732,2024-06-25T00:59:31,9058.25,FR,PL,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542715,2024-07-11T20:21:59,9094.29,GB,IR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542715,2024-07-11T20:21:59,9094.29,GB,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542744,2024-08-05T13:43:11,9911.0,DE,US,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542884,2024-08-09T08:34:40,9431.14,BR,RU,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542884,2024-08-09T08:34:40,9431.14,BR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542349,2024-08-21T00:04:00,9391.29,PL,PL,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542531,2024-08-21T21:55:28,389.17,DE,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542534,2024-08-29T16:31:06,9165.82,IR,CN,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542574,2024-08-31T15:28:19,9646.96,BR,FR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542641,2024-09-03T12:18:37,9540.14,US,BR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542654,2024-09-13T02:55:23,5052.93,BR,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542486,2024-09-14T23:43:28,6990.46,DE,IR,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542614,2024-09-23T08:05:49,8676.23,RU,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542696,2024-09-25T11:20:53,8654.23,BR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542383,2024-10-10T17:21:19,9831.85,GB,FR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542647,2024-10-22T15:39:13,9293.47,PL,US,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542645,2024-10-23T04:58:59,9530.58,RU,FR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542594,2024-11-01T15:59:32,3838.18,BR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542777,2024-11-10T13:12:59,9218.37,BR,GB,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542618,2024-11-12T01:44:04,9184.8,NG,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542771,2024-11-12T18:55:27,8787.15,PL,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542765,2024-11-16T04:43:11,7963.78,FR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542568,2024-11-16T05:39:55,9921.74,PL,GB,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542422,2024-11-16T11:45:54,5817.11,DE,IR,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542501,2024-11-26T22:59:46,9329.73,FR,BR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542846,2024-12-16T10:30:29,1735.08,BR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542790,2024-12-16T13:34:03,315.13,DE,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542449,2024-12-22T00:58:55,7262.41,BR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542345,2024-12-23T21:53:06,9701.85,FR,CN,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542427,2025-01-01T22:30:48,9827.24,PL,DE,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542368,2025-01-27T22:59:11,3153.75,NG,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542624,2025-02-06T03:44:47,2068.89,IR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542523,2025-02-22T19:45:30,9776.03,GB,NG,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542481,2025-03-01T12:16:55,8507.76,GB,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542483,2025-03-04T08:51:53,9866.47,PL,FR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542880,2025-03-15T08:14:11,1938.26,GB,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542490,2025-03-18T23:21:00,9384.74,CN,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542545,2025-03-20T03:06:45,9731.8,US,US,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542390,2025-03-23T13:07:39,9336.19,US,US,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542818,2025-03-31T12:17:56,403.07,NG,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4881,542503,2025-04-04T08:29:37,2313.84,PL,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542560,2025-04-11T11:50:39,9199.48,DE,US,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542651,2025-04-18T13:20:01,9738.17,IR,RU,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542651,2025-04-18T13:20:01,9738.17,IR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542677,2025-05-10T02:52:43,7160.87,FR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4882,542634,2025-05-18T17:57:29,9751.74,GB,NG,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542865,2025-05-22T21:52:40,9851.22,US,NG,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4881,542394,2025-05-27T07:12:13,9477.4,FR,PL,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542843,2025-05-30T13:57:47,6869.54,BR,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+2444,Susan Jones,1967-12-19,CN,Low,4883,542820,2025-06-08T19:52:17,9800.55,PL,FR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4883,542794,2025-06-23T11:28:35,9538.98,GB,NG,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+2444,Susan Jones,1967-12-19,CN,Low,4882,542602,2025-06-29T09:15:12,9344.62,GB,US,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728596,2023-02-24T19:16:26,9733.89,CN,GB,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728537,2023-02-28T01:30:52,9547.77,DE,NG,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728755,2023-03-02T15:13:57,9995.26,RU,DE,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728926,2023-03-04T19:22:15,6397.42,US,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728914,2023-03-19T08:27:58,9720.34,PL,GB,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728679,2023-04-06T09:42:22,8177.17,CN,IR,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728564,2023-04-12T21:59:49,9667.66,NG,NG,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728830,2023-04-22T02:52:33,4682.4,GB,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728619,2023-04-25T08:40:24,661.87,BR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728530,2023-05-04T22:58:38,9148.39,GB,GB,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728491,2023-06-03T17:48:36,9063.85,BR,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728749,2023-06-05T07:07:37,9215.15,GB,US,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728544,2023-06-23T18:26:18,9791.87,NG,PL,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728662,2023-06-29T18:26:31,8967.43,FR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728553,2023-07-07T20:17:14,9409.77,DE,BR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728769,2023-07-19T01:57:14,5752.8,PL,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728509,2023-07-30T00:50:54,7624.91,GB,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728563,2023-08-03T00:20:07,2542.67,FR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728676,2023-08-13T13:54:46,6772.42,GB,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728719,2023-08-14T05:18:22,7057.11,PL,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728559,2023-08-16T23:42:45,9582.25,IR,NG,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728653,2023-09-02T13:07:24,9372.95,RU,BR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728505,2023-09-17T03:44:06,6311.28,BR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728666,2023-09-30T19:32:31,9888.69,BR,PL,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728498,2023-10-10T16:58:40,8500.7,CN,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728927,2023-10-22T15:49:51,834.7,US,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728762,2023-10-23T13:39:58,9255.88,US,BR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728885,2023-10-28T16:35:18,9813.03,GB,BR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728876,2023-11-07T20:50:58,4563.29,NG,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728451,2023-11-20T07:58:47,9882.33,PL,FR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728634,2023-11-21T22:32:43,9256.4,GB,NG,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728595,2023-11-28T13:29:43,8621.16,PL,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728761,2023-12-04T10:59:04,9682.12,FR,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728748,2023-12-05T22:38:22,6138.99,IR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728934,2023-12-31T08:48:08,9451.04,FR,CN,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728663,2024-01-03T09:42:09,9878.81,DE,NG,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728476,2024-01-07T11:01:53,9678.53,BR,DE,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728565,2024-01-09T21:09:47,9902.87,PL,PL,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728632,2024-01-12T06:42:16,9580.44,PL,NG,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728939,2024-02-05T13:15:32,2993.17,US,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728481,2024-02-11T00:02:13,9472.2,RU,FR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728576,2024-02-14T15:18:19,9625.77,FR,US,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728667,2024-02-19T23:18:37,2563.76,PL,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728454,2024-02-20T18:13:23,2726.93,GB,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728658,2024-03-05T20:52:12,7451.07,US,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728709,2024-04-01T17:53:18,5868.87,NG,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728668,2024-04-22T18:52:16,9663.0,DE,RU,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728668,2024-04-22T18:52:16,9663.0,DE,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728764,2024-04-24T01:27:21,1045.19,NG,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728819,2024-04-27T01:25:17,9099.94,FR,NG,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728696,2024-05-02T13:16:55,6899.83,CN,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728562,2024-05-18T17:32:21,9473.12,RU,US,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728556,2024-05-29T03:15:09,9424.62,BR,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728871,2024-06-01T07:46:48,6854.8,BR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728622,2024-06-02T16:22:30,9642.65,CN,BR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728470,2024-06-10T00:18:01,7133.4,DE,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728785,2024-06-22T01:46:52,4927.64,PL,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728541,2024-06-22T19:28:15,9375.85,NG,PL,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728598,2024-07-01T19:03:48,9339.57,PL,GB,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728545,2024-07-03T22:22:34,8995.91,GB,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728680,2024-07-07T22:38:41,9423.06,DE,BR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728618,2024-07-21T18:51:14,9375.51,GB,PL,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728636,2024-08-01T06:28:36,8917.62,FR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728822,2024-08-09T13:39:06,9710.35,DE,FR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728600,2024-08-16T20:11:11,9231.47,GB,NG,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728720,2024-09-01T23:09:38,2860.15,CN,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728453,2024-09-08T19:50:20,6446.37,IR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728484,2024-09-22T15:35:36,5207.17,GB,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728872,2024-10-07T23:51:25,8509.91,PL,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728573,2024-10-14T19:28:09,3530.52,DE,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728943,2024-10-17T13:33:26,9948.94,FR,RU,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728943,2024-10-17T13:33:26,9948.94,FR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728577,2024-10-22T21:56:40,1844.68,CN,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728547,2024-11-08T11:46:59,9249.33,US,BR,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728571,2024-11-23T05:00:06,9780.21,DE,GB,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728953,2024-11-26T12:01:20,9928.27,FR,FR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728623,2024-11-30T21:34:43,9514.36,PL,DE,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728743,2024-12-05T19:36:33,1265.17,US,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728514,2024-12-20T14:10:48,6576.51,US,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728873,2024-12-24T17:57:34,9307.97,NG,CN,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728506,2025-01-12T13:46:18,136.32,BR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728700,2025-01-22T12:59:24,9972.62,BR,FR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728688,2025-01-22T22:24:32,9613.3,BR,US,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728832,2025-01-27T02:07:38,871.27,BR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728917,2025-02-12T19:41:48,4142.0,PL,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728842,2025-02-21T23:34:34,4607.34,US,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728704,2025-02-22T01:11:33,7064.92,BR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728611,2025-03-02T09:11:54,7949.64,BR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728703,2025-03-04T12:33:41,9857.45,IR,BR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728846,2025-03-06T11:16:37,1903.47,FR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728471,2025-03-07T15:56:34,9925.26,CN,FR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728807,2025-03-15T14:00:06,1302.35,BR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728920,2025-03-20T00:23:08,1298.1,DE,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728615,2025-03-23T17:41:16,9316.47,IR,FR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728518,2025-03-26T10:26:06,7232.38,FR,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728708,2025-03-26T16:59:14,2404.57,CN,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728605,2025-04-12T02:34:14,9964.71,US,GB,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6532,728690,2025-04-14T07:55:38,9990.2,BR,GB,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728802,2025-05-06T08:45:32,8604.1,FR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728468,2025-05-20T08:43:00,9692.2,BR,BR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728803,2025-05-26T00:39:49,6631.9,NG,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728469,2025-06-07T12:09:43,9754.18,DE,RU,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728469,2025-06-07T12:09:43,9754.18,DE,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728933,2025-06-08T14:34:53,9925.8,NG,DE,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6531,728574,2025-06-11T20:13:19,9126.0,NG,PL,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+3288,Jimmy Ortega,1991-11-05,CN,Low,6533,728801,2025-06-22T09:47:54,8266.37,PL,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054905,2023-01-07T11:04:12,237.03,PL,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054512,2023-01-08T14:48:54,9715.71,NG,GB,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054608,2023-02-15T18:47:02,9507.29,FR,IR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054608,2023-02-15T18:47:02,9507.29,FR,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054737,2023-03-11T16:38:58,5791.2,BR,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054425,2023-03-27T09:46:10,6211.47,PL,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054807,2023-04-07T04:57:13,9850.15,FR,DE,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054786,2023-04-13T23:46:03,9621.48,PL,GB,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054877,2023-04-14T00:08:15,9347.31,GB,BR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054454,2023-04-23T10:47:12,5120.23,US,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054686,2023-04-28T23:42:57,9713.54,NG,RU,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054686,2023-04-28T23:42:57,9713.54,NG,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054904,2023-04-29T09:39:40,9694.75,NG,FR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054868,2023-05-01T22:09:09,9692.98,US,GB,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054707,2023-07-04T13:26:05,9314.34,BR,GB,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054945,2023-07-17T17:18:24,9310.15,BR,FR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054635,2023-07-18T00:41:40,9362.07,RU,CN,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054935,2023-07-25T16:23:14,9570.62,BR,GB,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054725,2023-08-15T03:37:03,9093.19,BR,GB,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054779,2023-08-16T20:59:59,9257.77,US,CN,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054693,2023-08-20T04:05:24,9596.96,CN,US,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054419,2023-08-23T00:41:29,9935.78,IR,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054555,2023-08-27T06:12:22,8327.42,DE,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054924,2023-09-13T05:42:26,9922.75,FR,RU,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054924,2023-09-13T05:42:26,9922.75,FR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054628,2023-09-16T11:40:29,9771.56,GB,NG,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054560,2023-10-02T22:02:37,1784.99,FR,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054795,2023-10-22T22:49:07,9380.59,DE,IR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054795,2023-10-22T22:49:07,9380.59,DE,IR,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054612,2023-11-06T18:02:25,9963.4,GB,GB,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054754,2023-11-13T03:23:42,1508.58,GB,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054692,2023-11-22T18:18:17,9338.52,NG,DE,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054719,2023-12-07T14:28:13,9618.32,DE,RU,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054719,2023-12-07T14:28:13,9618.32,DE,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054416,2023-12-26T02:37:45,9298.73,CN,NG,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054814,2024-01-03T00:57:08,9634.97,FR,PL,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054672,2024-01-21T00:54:56,8257.67,PL,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054484,2024-01-22T13:15:16,9256.59,CN,DE,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054817,2024-01-27T12:20:07,9697.9,US,PL,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054691,2024-01-29T03:37:36,4735.8,PL,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054642,2024-01-31T20:55:17,9614.29,FR,DE,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054706,2024-02-03T19:41:04,6782.64,PL,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054526,2024-02-18T21:50:01,9414.04,FR,DE,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054656,2024-02-22T23:03:17,9077.03,DE,US,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054411,2024-03-19T03:14:42,2768.81,RU,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054448,2024-03-24T11:46:13,2117.35,FR,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054613,2024-03-24T22:59:11,2855.71,DE,IR,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054785,2024-04-04T06:19:08,9984.9,NG,GB,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054872,2024-04-19T08:49:05,9365.33,GB,GB,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054889,2024-04-19T11:42:50,1596.45,DE,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054809,2024-06-17T04:34:09,9693.15,CN,NG,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054573,2024-06-23T06:47:11,9777.24,CN,BR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054709,2024-06-24T23:11:20,1890.78,NG,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054891,2024-07-01T07:40:44,5274.37,NG,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054423,2024-07-04T22:22:21,9628.48,DE,PL,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054487,2024-07-05T15:39:27,6945.88,PL,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054799,2024-07-06T13:26:11,9486.03,PL,GB,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054921,2024-07-07T17:47:43,7688.04,GB,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054789,2024-07-11T01:15:54,9191.27,PL,GB,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054403,2024-07-22T06:00:15,9428.76,BR,GB,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054879,2024-08-27T17:21:49,6178.92,FR,IR,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054759,2024-09-03T21:19:31,8261.16,FR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054561,2024-09-08T01:31:06,7704.92,CN,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054575,2024-09-10T01:42:46,9903.15,GB,BR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054801,2024-09-19T16:58:35,9872.67,NG,FR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054579,2024-09-30T08:47:00,9334.66,GB,DE,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054453,2024-10-01T01:19:41,9393.0,NG,US,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054701,2024-10-02T12:40:19,6926.84,NG,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054730,2024-10-03T09:13:22,9217.76,FR,BR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054946,2024-10-07T01:01:39,9462.36,PL,CN,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054603,2024-10-23T03:59:11,383.95,GB,IR,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054792,2024-11-10T21:03:40,9237.6,US,PL,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054916,2024-11-23T00:11:59,6301.34,BR,RU,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054919,2024-12-02T05:43:52,9786.69,NG,BR,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054743,2024-12-13T09:25:50,9059.24,GB,GB,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054914,2024-12-13T18:59:46,9169.17,CN,US,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054521,2024-12-14T15:55:13,9112.02,PL,RU,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054521,2024-12-14T15:55:13,9112.02,PL,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054499,2024-12-21T08:40:09,5349.04,BR,IR,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054559,2024-12-22T14:28:53,9743.86,US,DE,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054466,2025-01-17T11:30:01,1963.58,FR,IR,Mobile,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054496,2025-01-23T03:46:47,9047.84,BR,PL,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054804,2025-02-01T22:02:30,9652.37,US,DE,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054842,2025-02-05T17:58:57,9193.54,CN,PL,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054834,2025-02-09T17:27:47,3754.33,US,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054446,2025-02-11T03:00:55,9158.42,NG,US,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054713,2025-02-12T12:50:08,4120.44,FR,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054578,2025-02-19T07:26:22,9040.86,PL,PL,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054838,2025-03-04T05:15:11,9945.4,RU,GB,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054875,2025-03-09T08:00:50,9574.58,PL,RU,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054875,2025-03-09T08:00:50,9574.58,PL,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054562,2025-03-31T06:29:01,6783.3,DE,RU,Branch,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054530,2025-04-02T05:24:03,1345.39,US,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054940,2025-04-03T08:39:44,9823.04,FR,NG,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054432,2025-04-04T03:00:42,5666.88,NG,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054645,2025-04-07T10:28:28,9579.04,PL,US,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054778,2025-04-08T02:46:52,6222.31,BR,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054630,2025-04-09T15:08:05,9770.9,BR,BR,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054564,2025-04-22T03:56:05,933.01,DE,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054885,2025-04-28T21:06:58,9772.16,FR,PL,Online,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054911,2025-05-23T11:12:14,9211.66,DE,BR,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054420,2025-05-23T17:27:22,2069.77,RU,IR,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054511,2025-05-28T19:23:30,9686.21,NG,US,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054677,2025-05-31T19:06:03,8491.4,PL,RU,ATM,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054848,2025-05-31T21:08:13,9656.79,BR,US,ATM,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9447,1054567,2025-06-03T05:50:26,4107.49,BR,RU,Online,Rule 3 - High-Risk Country,Destination country is high-risk
+4729,Rebecca Newman,1949-04-18,IR,Low,9448,1054750,2025-06-09T05:14:59,9036.62,DE,US,Branch,Rule 1 - Structuring,Transaction amount between 9000 and 9999
+4729,Rebecca Newman,1949-04-18,IR,Low,9449,1054941,2025-06-10T03:07:55,9111.32,NG,NG,Mobile,Rule 1 - Structuring,Transaction amount between 9000 and 9999
