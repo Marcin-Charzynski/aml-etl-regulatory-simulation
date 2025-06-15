@@ -65,3 +65,5 @@ SUMX(
 ### 🧩 Dashboard Screenshot
 
 ![Overview Dashboard](assets/powerbi/Overview Dashboard.png)
+![Overview Dashboard](assets/powerbi/Customer-Level Drilldown.png)
+
