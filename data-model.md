@@ -22,11 +22,11 @@ The project simulates a real-world AML system, integrating client, account, tran
 
 The SQLite database is created using a Python script that:
 
-* Generates 10,000 customers (with realistic names, birthdates, and risk categories)
-* Links each customer to 1–3 accounts
-* Populates each account with 50–200 randomized transactions (simulating deposits, transfers, foreign exchanges, etc.)
-* Adds a watchlist of 20 suspicious entities
-* Prepares an empty **flagged_txns** table for rule-based AML detection
+- Generate 10,000 customers with realistic attributes
+- Link each customer to 1–3 bank accounts
+- Populate each account with 50–200 transactions
+- Add a watchlist of 20 high-risk entities
+- Prepares an empty **flagged_txns** table for downstream AML rules
 
 Example connection setup:
 
