@@ -1,8 +1,0 @@
-txn_id,account_id,date,amount,currency,direction,channel,country
-5001,2001,2024-01-02,9500,EUR,out,wire,PL
-5002,2002,2024-01-05,25000,USD,in,wire,US
-5003,2003,2024-01-06,3000,EUR,out,atm,ES
-5004,2004,2024-01-07,85000,AED,in,cash,AE
-5005,2005,2024-01-10,9500,USD,out,wire,CN
-5006,2001,2024-01-11,4999,EUR,in,cash,PL
-5007,2002,2024-01-12,20000,USD,out,wire,RU
