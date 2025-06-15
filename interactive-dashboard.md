@@ -61,3 +61,7 @@ SUMX(
 )
 </code></pre>
 </details>
+
+### 🧩 Dashboard Screenshot
+
+![Overview Dashboard](assets/powerbi/Overview Dashboard.png)
