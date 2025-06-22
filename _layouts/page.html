@@ -17,138 +17,168 @@
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-sql.min.js"></script>
 </head>
 <body class="min-h-screen bg-gray-50 text-gray-800 font-sans leading-relaxed antialiased">
-
-<!-- Navigation -->
-<nav class="bg-white shadow-md">
-  <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-    <!-- Site Title -->
-    <a href="{{ site.baseurl }}/" class="text-xl font-semibold text-indigo-600 hover:text-indigo-800">
-      AML ETL & Regulatory Simulation
-    </a>
-
-    <!-- Back to Portfolio (desktop only) -->
-    <a href="{{ site.url }}/" class="text-sm text-indigo-500 hover:text-indigo-700 hidden md:inline-flex items-center space-x-1">
-      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
-           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M15 18l-6-6 6-6" />
-      </svg>
-      <span>Back to Portfolio</span>
-    </a>
-
-    <!-- Burger Icon -->
-    <button class="md:hidden block text-gray-600 focus:outline-none" id="menu-btn">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
-           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    </button>
-  </div>
-
-  <!-- Menu -->
-  <div class="container mx-auto px-4">
-    <ul id="menu" class="hidden md:flex flex-col md:flex-row text-gray-600 absolute md:static bg-white md:bg-transparent left-0 top-16 md:top-auto w-full md:w-auto px-4 md:px-0 py-4 md:py-0 shadow-md md:shadow-none z-50
-                        space-y-2 md:space-y-0 md:space-x-6">
-
-      <!-- Back to Portfolio (mobile only) -->
-      <li class="md:hidden">
-        <a href="{{ site.url }}/" class="block py-2 text-sm text-indigo-500 hover:text-indigo-700 flex items-center space-x-1">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
-               viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M15 18l-6-6 6-6" />
+  
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <!-- Site Title -->
+      <a href="{{ site.baseurl }}/" class="text-xl font-semibold text-indigo-600 hover:text-indigo-800">
+        AML ETL & Regulatory Simulation
+      </a>
+      <!-- Back to Portfolio (desktop only) -->
+      <a href="{{ site.url }}/" class="text-sm text-indigo-500 hover:text-indigo-700 hidden md:inline-flex items-center space-x-1">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+        <span>Back to Portfolio</span>
+      </a>
+      <!-- Burger Icon -->
+      <button class="md:hidden block text-gray-600 focus:outline-none" id="menu-btn">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Menu -->
+    <div class="container mx-auto px-4">
+      <ul id="menu" class="hidden md:flex flex-col md:flex-row text-gray-600 absolute md:static bg-white md:bg-transparent left-0 top-16 md:top-auto w-full md:w-auto px-4 md:px-0 py-4 md:py-0 shadow-md md:shadow-none z-50 space-y-2 md:space-y-0 md:space-x-6">
+        <!-- Back to Portfolio (mobile only) -->
+        <li class="md:hidden">
+          <a href="{{ site.url }}/" class="block py-2 text-sm text-indigo-500 hover:text-indigo-700 flex items-center space-x-1">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+                 viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
+            <span>Back to Portfolio</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/" class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl or page.url == site.baseurl | append: '/' %}font-bold text-indigo-700{% endif %}">
+            Overview
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/etl-process/" class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/etl-process/' %}font-bold text-indigo-700{% endif %}">
+            ETL Pipeline
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/risk-detection/" class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/risk-detection/' %}font-bold text-indigo-700{% endif %}">
+            AML Rules & Risk Scoring
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/regulatory-reporting/" class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/regulatory-reporting/' %}font-bold text-indigo-700{% endif %}">
+            Regulatory Outputs
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/data-model/" class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/data-model/' %}font-bold text-indigo-700{% endif %}">
+            Data Model & SQLite Setup
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.baseurl }}/interactive-dashboard/" class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/interactive-dashboard/' %}font-bold text-indigo-700{% endif %}">
+            Dashboard Demo (Power BI)
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Main Content Container with Sidebar and Project Content -->
+  <div class="container mx-auto flex flex-col md:flex-row flex-1 px-4 py-6 gap-6">
+    <!-- Sidebar - About Me (copied from main portfolio) -->
+    <aside class="w-full md:w-1/3 lg:w-1/4 bg-white shadow-md rounded-2xl border p-6 flex flex-col">
+      <div class="flex flex-col items-center">
+        <!-- Replace with your avatar image -->
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGzk26GoDsXGA/profile-displayphoto-scale_200_200/B4DZeJDZWhGYAg-/0/1750351060065?e=1756339200&v=beta&t=7xec0Fpe3CR_oh0exBIJ_jRY2lLD2sbMXSiLO20NmoU" 
+             alt="Marcin Charzyński" class="w-32 h-32 rounded-full mb-4">
+        <h1 class="text-2xl font-bold text-indigo-700">Marcin Charzyński</h1>
+        <p class="text-gray-600">Data Analyst</p>
+      </div>
+      <div class="mt-8 flex justify-center space-x-4">
+        <!-- LinkedIn Icon -->
+        <a href="https://www.linkedin.com/in/marcin-charzy%C5%84ski/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-800">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="w-6 h-6" role="img"
+               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path fill="currentColor" d="M416 32H32C14.3 32 0 46.3 0 64v384c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32zM135.4 416H69V202.2h66.5V416zM102.2 166c-21.3 0-38.5-17.3-38.5-38.5S80.9 89 102.2 89s38.5 17.4 38.5 38.5-17.2 38.5-38.5 38.5zm282.1 250H346V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
           </svg>
-          <span>Back to Portfolio</span>
+          <span class="sr-only">LinkedIn</span>
         </a>
-      </li>
-
-      <li>
-        <a href="{{ site.baseurl }}/"
-           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl or page.url == site.baseurl | append: '/' %}font-bold text-indigo-700{% endif %}">
-          Overview
+        <!-- GitHub Icon -->
+        <a href="https://github.com/Marcin-Charzynski" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:text-indigo-800">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="w-6 h-6" role="img"
+               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+            <path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+          </svg>
+          <span class="sr-only">GitHub</span>
         </a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/etl-process/"
-           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/etl-process/' %}font-bold text-indigo-700{% endif %}">
-          ETL Pipeline
-        </a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/risk-detection/"
-           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/risk-detection/' %}font-bold text-indigo-700{% endif %}">
-          AML Rules & Risk Scoring 
-        </a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/regulatory-reporting/"
-           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/regulatory-reporting/' %}font-bold text-indigo-700{% endif %}">
-          Regulatory Outputs
-        </a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/data-model/"
-           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/data-model/' %}font-bold text-indigo-700{% endif %}">
-          Data Model & SQLite Setup
-        </a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/interactive-dashboard/"
-           class="block py-2 hover:text-indigo-600 {% if page.url == site.baseurl | append: '/interactive-dashboard/' %}font-bold text-indigo-700{% endif %}">
-          Dashboard Demo (Power BI)
-        </a>
-      </li>
-    </ul>
+      </div>
+      <div class="mt-8">
+        <h2 class="text-xl font-semibold text-indigo-700 mb-2">About Me</h2>
+        <p class="text-gray-600 mb-4 leading-relaxed">
+          With a passion for turning raw numbers into strategic narratives, I bring extensive experience in transforming data into actionable insights. Proficient in Power BI, Excel (including Pivot Tables, Power Query, and VBA), SQL, and Python, I build dynamic dashboards and automated reports that uncover hidden opportunities and drive business success.
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          I bridge the gap between technical analysis and business strategy, translating complex datasets into clear, compelling stories that empower decision makers. I continually enhance my skills through online courses from platforms like Udemy and Coursera, learning from industry leaders to keep my approach innovative and effective.
+        </p>
+      </div>
+    </aside>
+    
+    <!-- Project Content -->
+    <main class="flex-1">
+      {{ content }}
+    </main>
   </div>
-</nav>
-
-<!-- Main content -->
-<main class="flex-grow container mx-auto px-6 py-8 max-w-4xl">
-  {{ content }}
-</main>
-
-<!-- Footer -->
-<footer class="bg-white border-t mt-12">
-  <div class="container mx-auto px-4 py-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center gap-2">
-    <span>&copy; {{ site.time | date: "%Y" }} Marcin – AML ETL & Regulatory Simulation</span>
-    <span>
-      <a href="https://www.linkedin.com/in/marcin-charzy%C5%84ski/" class="hover:text-indigo-600">LinkedIn</a> · 
-      <a href="https://github.com/Marcin-Charzynski" class="hover:text-indigo-600">GitHub</a>
-    </span>
-  </div>
-</footer>
-
-<script>
-  // Toggle mobile menu
-  document.getElementById('menu-btn').addEventListener('click', () => {
-    const menu = document.getElementById('menu');
-    menu.classList.toggle('hidden');
-  });
-
+  
+  <!-- Footer -->
+  <footer class="bg-white border-t mt-12">
+    <div class="container mx-auto px-4 py-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center gap-2">
+      <span>&copy; {{ site.time | date: "%Y" }} Marcin – AML ETL & Regulatory Simulation</span>
+      <span>
+        <a href="https://www.linkedin.com/in/marcin-charzy%C5%84ski/" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600">LinkedIn</a> · 
+        <a href="https://github.com/Marcin-Charzynski" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600">GitHub</a>
+      </span>
+    </div>
+  </footer>
+  
+  <script>
+    // Toggle mobile menu
+    document.getElementById('menu-btn').addEventListener('click', () => {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('hidden');
+    });
+  
     // Optional: Toggle code blocks
     function toggleCode(id) {
       const el = document.getElementById(id);
       el.style.display = (el.style.display === "none" || !el.style.display) ? "block" : "none";
     }
-</script>
-<script>
-  const params = new URLSearchParams(window.location.search);
-  const source = params.get("src") || "direct";
-  fetch("https://script.google.com/macros/s/AKfycbxQnisU7CNye7XVl2eKrYQxTciNPCj2LmG8W4PhMrO-X-ynzgmudBTyrjs1ILXwnLpS/exec", {
-    method: "POST",
-    mode: "no-cors",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      userAgent: navigator.userAgent,
-      page: location.href,
-      referrer: source,
-      screen: `${screen.width}x${screen.height}`,
-      language: navigator.language,
-      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-      time: new Date().toISOString()
-    })
-  }).catch(console.error);
-</script>
+  </script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const source = params.get("src") || "direct";
+    fetch("https://script.google.com/macros/s/AKfycbxQnisU7CNye7XVl2eKrYQxTciNPCj2LmG8W4PhMrO-X-ynzgmudBTyrjs1ILXwnLpS/exec", {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        userAgent: navigator.userAgent,
+        page: location.href,
+        referrer: source,
+        screen: `${screen.width}x${screen.height}`,
+        language: navigator.language,
+        timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+        time: new Date().toISOString()
+      })
+    }).catch(console.error);
+  </script>
 
 </body>
 </html>
