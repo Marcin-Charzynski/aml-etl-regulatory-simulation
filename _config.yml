@@ -2,7 +2,9 @@ title: AML ETL & Regulatory Simulation
 description: A simulation of Anti-Money Laundering (AML) processes and ETL pipelines using Python and SQLite.
 baseurl: "/aml-etl-regulatory-simulation"
 url: "https://marcin-charzynski.github.io"
-theme: minima
+plugins:
+  - jekyll-remote-theme
+remote_theme: Marcin-Charzynski/marcin-charzynski.github.io
 markdown: kramdown
 
 kramdown:
