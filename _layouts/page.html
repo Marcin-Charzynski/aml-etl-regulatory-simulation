@@ -92,13 +92,12 @@
   </nav>
   
   <!-- Main Content Container with Sidebar and Project Content -->
-  <div class="container mx-auto flex flex-col md:flex-row flex-1 px-4 py-6 gap-6">
-    {% include sidebar.html %}
-    
+  <div class="container mx-auto flex flex-col md:flex-row flex-1 px-4 py-6 gap-6">    
     <!-- Project Content -->
-    <main class="flex-1">
+    <main class="flex-1 order-1 md:order-2">
       {{ content }}
     </main>
+    {% include sidebar.html %}
   </div>
   
   <!-- Footer -->
